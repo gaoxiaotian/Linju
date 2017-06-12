@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+}
+.y-content {
+    width: 100%;
+    margin-bottom:122px;
+    nav {
+        width: 70%;
+        margin: 1% auto 0;
+        font-size: 2rem;
+        .y-ul {
+            width: 100%;
+            display: flex;
+            padding-bottom: 1%;
+            margin-bottom: 1%;
+            border-bottom: 1px dashed darkgrey;
+            li {
+                width: 75px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 6px;
+                margin-left: 2%;
+                font-size: 1rem;
+            }
+            li:hover {
+                color: red;
+            }
+            .y-li {
+                font-size: 1.5rem;
+                font-weight: bolder;
+            }
+            .y-on {
+                color: white;
+                background-color: #990000;
+            }
+        }
+        .y-ul1 {
+            width: 100%;
+            display: flex;
+            padding-bottom: 1%;
+            margin-bottom: 1%;
+            border-bottom: 1px dashed darkgrey;
+            li {
+                width: 70px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 6px;
+                margin-left: 2%;
+                font-size: 1rem;
+            }
+            li:hover {
+                color: red;
+            }
+            .y-li {
+                font-weight: bolder;
+            }
+            .y-on {
+                color: white;
+                background-color: #990000;
+            }
+        }
+    }
+    .y-nav {
+        width: 70%;
+        margin: 0 auto;
+        ul {
+            width: 100%;
+            display: flex;
+            li {
+                padding-left: 2%;
+            }
+            .y-li2:hover {
+                color: red;
+            }
+        }
+    }
+    .y-nr {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        .y-nr-l {
+            width: 70%;
+            .y-nr-l-s {
+                display: flex;
+                padding: 2%;
+                border-bottom: 1px dashed darkgrey;
+                .y-nr-l-l {
+                    width: 30%;
+                    margin-right: 2%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .y-nr-l-r {
+                    width: 70%;
+                    p:nth-child(1) {
+                        font-size: 2rem;
+                    }
+                    p:nth-child(2) {
+                        margin: 2% 1%;
+                        img {
+                            width: 5%;
+                            vertical-align: middle;
+                        }
+                        span {
+                            color: red;
+                            font-size: 1.5rem;
+                        }
+                    }
+                    p:nth-child(3) {
+                        margin: 3% 1%;
+                        font-size: 1.5rem;
+                        span {
+                            margin-left: 40%;
+                            color: red;
+                            font-size: 2rem;
+                        }
+                    }
+                    p:nth-child(4) {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .y-nr-r {
+            width: 30%;
+            .y-nr-r-t {
+                width: 100%;
+                border-bottom: 1px solid darkgray;
+                img {
+                    width: 5%;
+                    vertical-align: middle;
+                }
+                span {
+                    font-size: 1.5rem;
+                }
+            }
+            .y-nr-r-b {
+                width: 100%;
+                .y-nr-r-s {
+                    display: flex;
+                    padding: 2%;
+                    border-bottom: 1px dashed darkgrey;
+                    .y-nr-r-l {
+                        width: 30%;
+                        margin-right: 2%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .y-nr-r-r {
+                        width: 70%;
+                        p:nth-child(1) {
+                            font-size: 1.5rem;
+                        }
+                        p:nth-child(2) {
+                            font-size: 1.5rem;
+                        }
+                        p:nth-child(3) {
+                            font-size: 1.5rem;
+                        }
+                        p:nth-child(4) {
+                            font-size: 1.5rem;
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

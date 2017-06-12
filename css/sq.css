@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html {
+  font-size: 62.5%; }
+
+.q-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex; }
+  .q-content .q-c-l {
+    width: 20%;
+    height: 335px;
+    border: 1px solid grey; }
+    .q-content .q-c-l .q-hui {
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      background: #323436;
+      color: white;
+      font-weight: 550;
+      font-size: 1.7rem; }
+      .q-content .q-c-l .q-hui > img {
+        width: 7%;
+        vertical-align: middle;
+        margin-right: 2%; }
+    .q-content .q-c-l .q-zhang {
+      width: 100%;
+      text-align: center;
+      font-size: 1.5rem; }
+      .q-content .q-c-l .q-zhang li {
+        width: 100%;
+        height: 30px;
+        margin: 2% 0;
+        color: darkgray;
+        line-height: 30px; }
+      .q-content .q-c-l .q-zhang .q-z-t {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-weight: 550;
+        font-size: 1.7rem; }
+        .q-content .q-c-l .q-zhang .q-z-t > img {
+          width: 5%;
+          vertical-align: middle;
+          margin-right: 2%; }
+      .q-content .q-c-l .q-zhang .q-on,
+      .q-content .q-c-l .q-zhang li:nth-child(2):hover,
+      .q-content .q-c-l .q-zhang li:nth-child(3):hover,
+      .q-content .q-c-l .q-zhang li:nth-child(5):hover,
+      .q-content .q-c-l .q-zhang li:nth-child(6):hover,
+      .q-content .q-c-l .q-zhang li:nth-child(7):hover {
+        background: #990000;
+        color: white; }
+  .q-content .q-c-r {
+    width: 80%; }
+    .q-content .q-c-r .q-item {
+      width: 100%;
+      display: none; }
+    .q-content .q-c-r .q-item:nth-child(2) table {
+      width: 50%;
+      margin-left: 6%;
+      margin-top: 2%;
+      font-size: 1.5rem; }
+      .q-content .q-c-r .q-item:nth-child(2) table tr {
+        height: 30px; }
+        .q-content .q-c-r .q-item:nth-child(2) table tr td {
+          padding-left: 4%; }
+        .q-content .q-c-r .q-item:nth-child(2) table tr td:nth-child(1) {
+          text-align: right; }
+      .q-content .q-c-r .q-item:nth-child(2) table tr:nth-child(7) button {
+        width: 120px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        line-height: 50px;
+        border-radius: 3px;
+        background: #FF5A00;
+        cursor: pointer;
+        border: none; }
+    .q-content .q-c-r .q-item:nth-child(3) {
+      width: 100%; }
+      .q-content .q-c-r .q-item:nth-child(3) .q-p {
+        width: 100%;
+        padding: 1% 2%;
+        margin-bottom: 1%;
+        background: #F8F8F8; }
+      .q-content .q-c-r .q-item:nth-child(3) form {
+        padding: 2% 10%;
+        font-size: 1.5rem; }
+        .q-content .q-c-r .q-item:nth-child(3) form table tr {
+          height: 50px; }
+          .q-content .q-c-r .q-item:nth-child(3) form table tr td:nth-child(1) {
+            text-align: right;
+            color: grey;
+            font-size: 1.5rem; }
+            .q-content .q-c-r .q-item:nth-child(3) form table tr td:nth-child(1) button {
+              margin-top: 7%;
+              width: 100px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              background: #FF5A00;
+              border: none;
+              color: white; }
+          .q-content .q-c-r .q-item:nth-child(3) form table tr input {
+            padding: 3%;
+            width: 200px; }
+    .q-content .q-c-r .q-item:nth-child(6) {
+      width: 100%; }
+      .q-content .q-c-r .q-item:nth-child(6) form {
+        padding: 2% 5%;
+        font-size: 1.5rem; }
+        .q-content .q-c-r .q-item:nth-child(6) form table {
+          width: 70%;
+          margin-left: 6%;
+          margin-top: 2%;
+          font-size: 1.5rem; }
+          .q-content .q-c-r .q-item:nth-child(6) form table tr {
+            height: 30px; }
+            .q-content .q-c-r .q-item:nth-child(6) form table tr td {
+              padding-left: 4%; }
+            .q-content .q-c-r .q-item:nth-child(6) form table tr td:nth-child(1) {
+              width: 140px;
+              text-align: right;
+              color: grey;
+              font-size: 1.5rem; }
+          .q-content .q-c-r .q-item:nth-child(6) form table tr:nth-child(7) button {
+            width: 120px;
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            line-height: 50px;
+            border-radius: 3px;
+            background: #FF5A00;
+            cursor: pointer;
+            border: none; }
+    .q-content .q-c-r .q-item:nth-child(7) {
+      width: 100%;
+      display: block; }
+      .q-content .q-c-r .q-item:nth-child(7) .q-p {
+        width: 100%;
+        padding: 1% 0;
+        margin-bottom: 1%;
+        background: #F8F8F8; }
+      .q-content .q-c-r .q-item:nth-child(7) div {
+        width: 100%;
+        background: #F8F8F8;
+        display: flex;
+        border-bottom: 1px solid gainsboro; }
+        .q-content .q-c-r .q-item:nth-child(7) div p {
+          width: 20%; }
+          .q-content .q-c-r .q-item:nth-child(7) div p img {
+            width: 70%; }
+        .q-content .q-c-r .q-item:nth-child(7) div ul {
+          width: 80%;
+          padding-top: 2%; }
+          .q-content .q-c-r .q-item:nth-child(7) div ul li:nth-child(1) {
+            width: 100%;
+            font-size: 1.7rem; }
+            .q-content .q-c-r .q-item:nth-child(7) div ul li:nth-child(1) img {
+              vertical-align: middle;
+              width: 2%; }
+          .q-content .q-c-r .q-item:nth-child(7) div ul li:nth-child(2) {
+            width: 100%; }
+            .q-content .q-c-r .q-item:nth-child(7) div ul li:nth-child(2) span {
+              margin-left: 75%; }
+          .q-content .q-c-r .q-item:nth-child(7) div ul li:nth-child(3) {
+            width: 100%;
+            margin-top: 1%;
+            font-size: 1rem;
+            color: blue; }
+
+/*# sourceMappingURL=sq.css.map */

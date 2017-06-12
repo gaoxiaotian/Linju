@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 62.5%; }
+
+.g-box {
+  margin: 1%;
+  width: 100%; }
+  .g-box .g-bgColor {
+    background: #414141;
+    color: white; }
+  .g-box .g-small {
+    width: 70%;
+    margin: 0 auto;
+    display: flex; }
+    .g-box .g-small nav {
+      width: 17%;
+      text-align: center; }
+      .g-box .g-small nav ul li {
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.6rem;
+        cursor: pointer; }
+    .g-box .g-small .g-navR {
+      width: 70%;
+      border: 1px solid #ccc; }
+      .g-box .g-small .g-navR .g-navR1 {
+        display: none; }
+        .g-box .g-small .g-navR .g-navR1 p {
+          font-size: 1.6rem;
+          padding: 1%; }
+        .g-box .g-small .g-navR .g-navR1 > .g-img {
+          margin-top: 2%;
+          text-align: center; }
+          .g-box .g-small .g-navR .g-navR1 > .g-img img {
+            width: 95%; }
+        .g-box .g-small .g-navR .g-navR1 > .g-jianjie {
+          padding-left: 2%;
+          height: 80px;
+          line-height: 80px;
+          border-bottom: 1px dashed #cccccc; }
+          .g-box .g-small .g-navR .g-navR1 > .g-jianjie span {
+            font-size: 2.4rem;
+            font-weight: 900;
+            padding-top: 10px;
+            padding-left: 2%; }
+
+/*# sourceMappingURL=guanyuwomen.css.map */

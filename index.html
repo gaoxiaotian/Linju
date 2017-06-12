@@ -1,0 +1,208 @@
+<!DOCTYPE html >
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <link rel="stylesheet" href="css/new.css">
+    <script src="js/jquery.3.1.1.js"></script>
+    <script src="js/angular-1.4.6.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/zufang.css">
+    <link rel="stylesheet" href="css/guanyuwomen.css">
+    <link rel="stylesheet" href="css/shenqing.css">
+</head>
+<body>
+
+<div class="f-div1">
+    <div>
+        <p>您好，欢迎来到邻居大妈</p>
+        <ul>
+            <li><a href="">登录</a></li>
+            <li>|</li>
+            <li><a href="">注册</a></li>
+            <li>|</li>
+            <li><a href="">加入收藏</a></li>
+            <li>|</li>
+            <li><a href="">设为首页</a></li>
+        </ul>
+    </div>
+</div>
+<div class="f-div2">
+    <div>
+        <img src="image/logo.png" alt="">
+        <p>
+            <img src="image/phone.jpg" alt="">
+            <strong>021-63179891</strong>
+        </p>
+    </div>
+</div>
+<div class="f-div3">
+   <div>
+       <div>
+           <h3>房源分类</h3>
+           <div>
+               <dl>
+                   <dt>
+                       <a href="">房源区域</a>
+                       <dd>
+                           <a href="">智慧园</a>
+                           <a href="">立民村</a>
+                           <a href="">塘口村</a>
+                           <a href="">勤劳村</a>
+                           <a href="">芦胜村</a>
+                           <a href="">知新村</a>
+                       </dd>
+                   </dt>
+               </dl>
+               <dl>
+                   <dt>
+                       <a href="">租房</a>
+                       <dd>
+                           <a href="">租金</a>
+                           <a href="">出租方式</a>
+                           <a href="">面积</a>
+                           <a href="">房型</a>
+                       </dd>
+                   </dt>
+               </dl>
+               <dl>
+                   <dt>
+                       <a href="">新房</a>
+                       <dd>
+                           <a href="">价格</a>
+                           <a href="">面积</a>
+                           <a href="">房型</a>
+                       </dd>
+                   </dt>
+               </dl>
+               <dl>
+                   <dt>
+                       <a href="">二手房</a>
+                       <dd>
+                           <a href="">价格</a>
+                           <a href="">面积</a>
+                           <a href="">房型</a>
+                       </dd>
+                   </dt>
+               </dl>
+           </div>
+       </div>
+       <ul>
+           <li><a href="#shouye">首页</a></li>
+           <li><a href="#zufang">租房</a></li>
+           <li><a href="#xinfang">新房</a></li>
+           <li><a href="#ershoufang">二手房</a></li>
+           <li><a class="f-zhiding">制定购房</a></li>
+           <li><a href="#shenqing">申请自由经纪人</a></li>
+           <li><a href="#guanyuwomen">关于我们</a></li>
+       </ul>
+   </div>
+</div>
+<div class="f-div4" style="background: url(image/ban.jpg) center center no-repeat"></div>
+<ng-view></ng-view>
+<footer class="f-div5">
+    <div class="f-top">
+        <div>
+            <ul>
+                <li><a href="">邻居大妈</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">个人中心</a></li>
+            </ul>
+            <div>
+                <img src="image/erweima.png" alt="">
+                <div>
+                    <p>微信扫一扫</p>
+                    <p>房价点评，精彩发布</p>
+                </div>
+                <img src="image/erweima.png" alt="">
+                <div>
+                    <p>微信扫一扫</p>
+                    <p>房价点评，精彩发布</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="f-bottom">
+        Copyright@ 2015 邻居大妈 版权所有 沪ICP备1234567号-0    技术支持：<a href="">秦王网络</a>
+    </div>
+</footer>
+<!--<div class="f-bg100" style="background: url(image/black60.png);"></div>-->
+<!--<div class="f-zhidinggoufang">-->
+    <!--<h2>指定购房 <span class="close">X</span></h2>-->
+    <!--<form action="#" method="get">-->
+        <!--<div class="zhiding-list">-->
+            <!--<label>选择区域：</label>-->
+            <!--<select>-->
+                <!--<option>智慧园</option>-->
+                <!--<option>立民村</option>-->
+                <!--<option>塘口村</option>-->
+                <!--<option>勤劳村</option>-->
+                <!--<option>芦胜村</option>-->
+                <!--<option>知新村</option>-->
+            <!--</select>-->
+        <!--</div>-->
+        <!--<div class="zhiding-list">-->
+            <!--<label>方式：</label>-->
+            <!--<select>-->
+                <!--<option>租房</option>-->
+                <!--<option>新房</option>-->
+                <!--<option>二手房</option>-->
+            <!--</select>-->
+        <!--</div>-->
+        <!--<div class="zhiding-list">-->
+            <!--<label>联系方式：</label>-->
+            <!--<input type="text" />-->
+        <!--</div>-->
+        <!--<div class="zhidingsub"><input type="submit" value="提交" /></div>-->
+    <!--</form>-->
+    <!--<div class="zhidingtext">-->
+        <!--<h3>指定购房注意事宜：</h3>-->
+        <!--<p>1、请详细输入您所需要购买的房源信息(精确到小区)</p>-->
+        <!--<p>2、制定购房申请提交后，客服中心会在24小时之内与您取得联系</p>-->
+        <!--<p>3、如有任何疑问，请随时拨打我们的电话：400-000-0000</p>-->
+    <!--</div>-->
+<!--</div>-->
+</body>
+
+
+<script>
+//    $(".zhiding").click(function(){
+//        $(".bg100").show();
+//        $(".zhidinggoufang").fadeIn();
+//    })
+//    $(".close").click(function(){
+//        $(".bg100").hide();
+//        $(".zhidinggoufang").fadeOut();
+//    })
+var app = angular.module("myApp",['ngRoute'])
+app.config(function($routeProvider,$locationProvider){
+    $locationProvider.hashPrefix("");
+    $routeProvider.when("/shouye",{
+                templateUrl:"./view/shouye.html"
+            })
+            .when("/zufang",{
+                templateUrl:"./view/zufang.html"
+            })
+            .when("/xinfang",{
+                templateUrl:"./view/xinfang.html"
+            })
+            .when("/ershoufang",{
+                templateUrl:"./view/ershoufang.html"
+            })
+            .when("/guanyuwomen",{
+                templateUrl:"./view/guanyuwomen.html"
+            })
+            .when("/shenqing",{
+                templateUrl:"./view/shenqing.html"
+            })
+            .otherwise({redirectTo:"/shouye"})
+})
+
+
+
+
+</script>
+</html>
